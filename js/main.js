@@ -1,8 +1,3 @@
-// function sayHi (name = "foydalanuvchi") {
-//   console.log (`salom,  ${name}`);
-// }
-// sayHi ("shahboz")
-
 var yoshi = 16;
 var kiritish =parseInt(prompt("yoshingizni kiriting"), 10);
 
@@ -15,7 +10,7 @@ if (kiritish >= yoshi) {
 
 else {
   var end = document.createElement("p");
-  var end = `Uzr! yoshingiz yetmadi ${yoshi - kiritish} yildan song qatnashishingiz mumkin`;
+  var end = `Uzr! yoshingiz yetmadi ${yoshi - kiritish} yildan so'ng qatnashishingiz mumkin`;
   console.log(end);
   document.body.append(end);
 }
